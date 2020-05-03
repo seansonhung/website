@@ -79,13 +79,14 @@ header{
 .menu {
   text-transform: uppercase;
   color:#fff;
+  font-size: 20px;
   font-family:'Space Mono';
   display: inline-block;
   cursor: pointer;
   pointer-events: none;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 25px;
+  left: 25px;
 }
 .menu:hover {
   pointer-events: all;
@@ -98,86 +99,25 @@ pointer-events: all;
 }
 .spacer {
   display: inline-block;
-  width: 80px;
+  width: 100px;
   margin-left: 15px;
   margin-right: 15px;
   vertical-align: middle;
+  border-bottom: 1px solid #ffffff;
   cursor: pointer;
   position: relative;
-}
-.spacer:before {
-  content: "";
-  position: absolute;
-  border-bottom: 1px solid #ffffff;
-  height: 1px;
-  width: 0%;
-  transition: width 0.25s ease;
-  transition-delay: 0.7s;
 }
 .item {
   position: relative;
   display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
   margin-right: 30px;
-  top: 10px;
-  opacity: 0;
-  transition: opacity 0.5s ease, top 0.5s ease;
-  transition-delay: 0;
-}
-span {
-  transition: color 0.5s ease;
+  top: 0px;
+
 }
 .item:hover a {
   color: #ff0000;
-}
-.menu:hover .spacer:before {
-  width: 100%;
-  transition-delay: 0s;
-}
-.menu:hover .item {
-  opacity: 1;
-  top: 0px;
-}
-.item:nth-child(1) {
-  transition-delay: 0.4s;
-}
-.item:nth-child(2) {
-  transition-delay: 0.35s;
-}
-.item:nth-child(3) {
-  transition-delay: 0.3s;
-}
-.item:nth-child(4) {
-  transition-delay: 0.25s;
-}
-.item:nth-child(5) {
-  transition-delay: 0.2s;
-}
-.item:nth-child(6) {
-  transition-delay: 0.15s;
-}
-.item:nth-child(7) {
-  transition-delay: 0.1s;
-}
-.menu:hover .item:nth-child(1) {
-  transition-delay: 0.25s;
-}
-.menu:hover .item:nth-child(2) {
-  transition-delay: 0.3s;
-}
-.menu:hover .item:nth-child(3) {
-  transition-delay: 0.35s;
-}
-.menu:hover .item:nth-child(4) {
-  transition-delay: 0.4s;
-}
-.menu:hover .item:nth-child(5) {
-  transition-delay: 0.45s;
-}
-.menu:hover .item:nth-child(6) {
-  transition-delay: 0.5s;
-}
-.menu:hover .item:nth-child(7) {
-  transition-delay: 0.55s;
 }
 
 a {
