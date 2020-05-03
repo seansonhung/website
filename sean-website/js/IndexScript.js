@@ -5,9 +5,9 @@ window.onload = (function(){
     var i = 0;
     var b = 0;
     var titleText = 'Hello! I’m Sean Nguyen';
-    var descriptionText = 'A fourth year software engineering student.';
+    var descriptionText = "I'm a fourth year software engineering student currently studying at the University of Toronto.";
     var speedSlow = 75;
-    var speedFast = 25;
+    var speedFast = 20;
     typeWriter();
     function typeWriter() {
         if (i < titleText.length) {
@@ -25,9 +25,5 @@ window.onload = (function(){
         }
     }
     
-    $(".item").click(function() {
-        $(".item").removeClass("active");
-        $(this).addClass("active");
-    });
 
 });
