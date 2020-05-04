@@ -6,20 +6,19 @@ html {
 
 body {
 	background: #FFFFFF;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:'Space Mono', 'Work Sans';
   font-size: 14px;
   background-color: #111111;
 	color: rgb(0, 0, 0);
   height: 75%;
   width: 100%;
+  color:#fff;
   margin: auto;
 }
 
 footer{
-  color:#fff;
   font-family:'Space Mono';
   text-align: center;
-  margin-top: 25px;
 }
 .social_links{
   padding-bottom:10px;
@@ -36,10 +35,15 @@ footer{
   font-size:15px;
 }
 
-.text_container{
-  margin-top:8vw;
-  height:65%;
+.text_container_fit_screen{
+  margin-top:12vw;
+  height:50%;
   overflow: auto;
+  padding-bottom: 50px;
+}
+
+.text_container_fit{
+  padding: 25px 50px 50px 50px;
 }
 
 .text_title{
@@ -48,7 +52,6 @@ footer{
   font-weight:bold;
   line-height:1.0;
   text-align:center;
-  color:#fff;
   font-family:'Space Mono';
 }
 
@@ -68,7 +71,6 @@ footer{
   font-family:'Work Sans';
   line-height:1.5;
   text-align:center;
-  color:#fff;
   padding-top:25px;
   font-size:20px;
   max-width: 60%;
@@ -78,7 +80,6 @@ header{
 }
 .menu {
   text-transform: uppercase;
-  color:#fff;
   font-size: 20px;
   font-family:'Space Mono';
   display: inline-block;
@@ -114,7 +115,6 @@ pointer-events: all;
   pointer-events: all;
   margin-right: 30px;
   top: 0px;
-
 }
 .item:hover a {
   color: #ff0000;
@@ -125,6 +125,14 @@ a {
   color: inherit;
 }
 
+h1, h2 {
+  font-family: 'Space Mono';
+}
+
+p {
+  font-family: 'Work Sans';
+}
+
 .active {
   border-bottom: 1px solid #ffffff;
 }
@@ -132,4 +140,28 @@ a {
 ::-webkit-scrollbar {
   width: 10px;
   color:#fff;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  display: inline-block;
+  margin: 25px 25px 25px 25px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 4px 8px 0 #ffffff;
+  width:40%;
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 #ffffff;
+}
+
+.card_text{
+  padding: 2px 16px;
+}
+
+.card img {
+  width:100%;
+  height:250px;
 }
