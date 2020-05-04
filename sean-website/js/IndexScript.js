@@ -5,7 +5,7 @@ window.onload = (function(){
     var i = 0;
     var b = 0;
     var titleText = 'Hello! I’m Sean Nguyen';
-    var descriptionText = "I'm a fourth year software engineering student currently studying at the University of Toronto.";
+    var descriptionText = "A computer science student specializing in software engineering at the University of Toronto.";
     var speedSlow = 75;
     var speedFast = 20;
     typeWriter();
