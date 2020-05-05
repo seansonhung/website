@@ -19,6 +19,7 @@ body {
 footer{
   font-family:'Space Mono';
   text-align: center;
+  padding-bottom: 50px;
 }
 .social_links{
   padding-bottom:10px;
